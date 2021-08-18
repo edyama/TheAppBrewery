@@ -12,6 +12,7 @@ class MessageCell: UITableViewCell {
 
     @IBOutlet var messageBubble: UIView!
     @IBOutlet var label: UILabel!
+    @IBOutlet var leftImageView: UIImageView!
     @IBOutlet var rightImageView: UIImageView!
     
     override func awakeFromNib() {
